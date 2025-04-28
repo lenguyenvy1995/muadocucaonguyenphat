@@ -1,0 +1,47 @@
+#course{
+    .box-item{
+        .box-item-card{
+            border: 2px solid $color-primary;
+            transition: transform 0.3s ease;
+            background: none;
+            margin: 10px;
+            .img-fluid-eq__wrap {
+                // height: 300px;
+                width: 100%;
+                .zoom-effect{
+                    height: 261px;
+                    object-fit: cover;
+                }
+            }
+            .btn-sup{
+                background: rgba(0, 0, 0, 0.8);
+                padding: 13px 10px;
+                display: flex;
+               
+                justify-content: center;
+                height: 50px;
+                overflow: hidden;
+                white-space: normal;
+                text-overflow: clip;
+                align-items: center;
+                h5 {
+                    font-size: 18px;
+                }
+  
+ 
+         }
+       
+        &:hover{
+          
+            object-fit: cover;
+            overflow: hidden;
+            img {
+               
+              
+                transform: scale(1.1);
+                -webkit-transition: 0.3s all;                                    
+                }  
+        }
+    } 
+    }
+}
